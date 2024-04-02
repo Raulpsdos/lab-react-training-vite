@@ -1,8 +1,7 @@
-
 function IdCard (props) {
-    const { lastName, firstName, gender, height, birth, picture } = props;
+  const { lastName, firstName, gender, height, birth, picture } = props
 
-    return (
+  return (
         <div className="idCard">
             <div className="photo">
                 <img src={picture} />
@@ -16,7 +15,7 @@ function IdCard (props) {
                 <p><b>Birth:</b> {birth.toDateString()}</p>
             </div>
         </div>
-    );
+  )
 }
 
-export default IdCard;
+export default IdCard
